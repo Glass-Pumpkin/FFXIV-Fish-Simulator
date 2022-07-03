@@ -1,7 +1,7 @@
 # FFXIV-Fish-Simulator
-Basic Final Fantasy XIV Fishing Simulator
+A Rudimentary Final Fantasy XIV Fishing Simulator
 
-Just click "Cast" and enjoy!
+Just click the big "Cast" button and enjoy!
 
 This project works best on 1920x1080 resolutions. 
 
