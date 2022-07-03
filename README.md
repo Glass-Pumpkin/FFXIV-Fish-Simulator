@@ -3,4 +3,4 @@ Basic Final Fantasy XIV Fishing Simulator
 
 Just click "Cast" and enjoy!
 
-Thanks for checking out my first project!
+This project works best on 1920x1080 resolutions. Thank you for checking out my first project!
