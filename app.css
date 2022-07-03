@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(fish.png);
+    background-size: cover;
+    background-color: #151b20;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 6em;
+    font-size: 1.2em;
+    transition: all 0.25s;
+    margin-top: -400px;
+    position: absolute;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+h1 {
+    color: white;
+    font-size: 2em;
+    margin-top: -600px;
+    position: absolute;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 250px;
+}
+
+#outputOne {
+    color: white;
+    font-size: 1.5em;
+    margin-top: -150px;
+}
+
+#outputTwo {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#outputThree {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#fishCanvas {
+    margin-top: 75px;
+    position: absolute;
+}
+
+#footer {
+    color: white;
+    font-size: .8em;
+    margin-top: 900px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#trademark {
+    color: white;
+    font-size: .8em;
+    margin-top: 960px;
+    position: absolute;
+}
