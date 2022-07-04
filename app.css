@@ -8,14 +8,16 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(fish.png);
     background-size: cover;
     background-color: #151b20;
+    margin: 0;
+    padding: 0;
 }
 
 button {
     background: rgba(0, 0, 0, 0.4);
     color: #ffa260;
     border: 2px solid;
-    padding: 1em 6em;
-    font-size: 1.2em;
+    border-radius: 10px;
+    padding: 2.6em 2.6em;
     transition: all 0.25s;
     margin-top: -400px;
     position: absolute;
@@ -32,11 +34,59 @@ button:hover {
 
 h1 {
     color: white;
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: -600px;
     position: absolute;
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
+
+#cast {
+    margin-right: 300px;
+    background-image: url(FishImg/Cast_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+#hook {
+    margin-left: -100px;
+    background-image: url(FishImg/Hook_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+#chum {
+    margin-left: 100px;
+    background-image: url(FishImg/Chum_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+.chumGlow {
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px -5px #f1ff5c;
+    }
+
+    to {
+        box-shadow: 0 0 5px 5px #f1ff5c;
+    }
+}
+
+
+#quit {
+    margin-left: 300px;
+    background-image: url(FishImg/Quit_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
 
 #container {
     display: flex;
@@ -85,3 +135,5 @@ h1 {
     margin-top: 960px;
     position: absolute;
 }
+
+@media only screen and (max-width: 700px) {}
