@@ -539,6 +539,7 @@ chum.addEventListener("click", function (e) {
 quit.addEventListener("click", function (e) {
     resetPage();
     clearTimeout(timeTwo);
+    clearTimeout(fishTimer);
     // clearInterval(castMessage);
     chum.className = "";
     outputOne.innerHTML = `You put away your rod.`
