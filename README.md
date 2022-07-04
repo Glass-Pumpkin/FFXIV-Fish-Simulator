@@ -3,7 +3,7 @@ A Barebones Final Fantasy XIV Fishing Simulator
 
 NOW WITH 4 TIMES THE BUTTONS AND 4 TIMES THE FUN!!
 
-Oh. More fish have been added too. So that's neat.
+Oh. More fish have been added too. So that's pretty neat.
 
 -----------------------------------------------
 Buttons are as follows:
