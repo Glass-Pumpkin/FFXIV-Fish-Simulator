@@ -252,7 +252,7 @@ let fishInfo = [
     },
 
     {
-        name: 'Monkey Onke',
+        name: 'Monke Onke',
         level: 33,
         bait: '', //Mooch Cooperfish
         bite: '!',
@@ -260,7 +260,7 @@ let fishInfo = [
         mooch: 'No',
         minSize: 22.1,
         maxSize: 36.9,
-        image: 'FishImg/Monkey Onke.png'
+        image: 'FishImg/Monke Onke.png'
     },
 
     {
