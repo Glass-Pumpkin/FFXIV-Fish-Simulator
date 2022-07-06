@@ -1,9 +1,7 @@
 # FFXIV-Fish-Simulator
 A Barebones Final Fantasy XIV Fishing Simulator
 
-NOW WITH 4 TIMES THE BUTTONS AND 4 TIMES THE FUN!!
-
-Oh. More fish have been added too. So that's pretty neat.
+NOW WITH MANY LOCATIONS AND 10x THE FISH!!
 
 -----------------------------------------------
 Buttons are as follows:
@@ -16,6 +14,8 @@ Buttons are as follows:
 
 - Quit: Cancel everything and put away your rod
 
+
+Click the bottom buttons to change your location!
 -----------------------------------------------
 This project works best on 1920x1080 resolutions. 
 
