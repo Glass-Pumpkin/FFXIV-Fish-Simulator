@@ -1,4 +1,4 @@
-# FFXIV-Fish-Simulator
+# FFXIV-Fish-SimulatorCancel changes
 A Barebones Final Fantasy XIV Fishing Simulator
 
 NOW WITH MANY LOCATIONS AND 10x THE FISH!!
@@ -16,6 +16,7 @@ Buttons are as follows:
 
 
 Click the bottom buttons to change your location!
+
 -----------------------------------------------
 This project works best on 1920x1080 resolutions. 
 
