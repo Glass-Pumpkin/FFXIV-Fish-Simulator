@@ -1,0 +1,197 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    background-color: #151b20;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Misc/Fish.jpg);
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background: rgba(0, 0, 0, 0.4);
+    color: #ffa260;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 2.6em 2.6em;
+    transition: all 0.25s;
+    margin-top: -400px;
+    position: absolute;
+}
+
+button:hover {
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-top: -600px;
+    position: absolute;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#cast {
+    margin-right: 300px;
+    background-image: url(Misc/Cast_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+#hook {
+    margin-left: -100px;
+    background-image: url(Misc/Hook_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+#chum {
+    margin-left: 100px;
+    background-image: url(Misc/Chum_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+.chumGlow {
+    animation: glow 1s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px -5px #f1ff5c;
+    }
+
+    to {
+        box-shadow: 0 0 5px 5px #f1ff5c;
+    }
+}
+
+.select {
+    box-shadow: 0 0 5px 5px #f1ff5c;
+}
+
+#quit {
+    margin-left: 300px;
+    background-image: url(Misc/Quit_Icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70px;
+}
+
+#home {
+    margin-top: 750px;
+    margin-left: -500px;
+    background-image: url(Misc/Return_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+
+#laNoscea {
+    margin-top: 750px;
+    margin-left: -300px;
+    background-image: url(Misc/Limsa_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+#blackShroud {
+    margin-top: 750px;
+    margin-left: -100px;
+    background-image: url(Misc/BlackShroud_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+#thanalan {
+    margin-top: 750px;
+    margin-left: 100px;
+    background-image: url(Misc/Thanalan_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+#coerthas {
+    margin-top: 750px;
+    margin-left: 300px;
+    background-image: url(Misc/Ishgard_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+#farEast {
+    margin-top: 750px;
+    margin-left: 500px;
+    background-image: url(Misc/FarEast_Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70px;
+}
+
+
+#container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+    height: 250px;
+    margin-top: 90px;
+}
+
+#outputOne {
+    color: white;
+    font-size: 1.5em;
+    margin-top: -180px;
+}
+
+#outputTwo {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#outputThree {
+    color: white;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+#fishCanvas {
+    margin-top: 185px;
+    position: absolute;
+}
+
+#footer {
+    color: white;
+    font-size: .8em;
+    margin-top: 900px;
+    position: absolute;
+    text-decoration: none;
+}
+
+#trademark {
+    color: white;
+    font-size: .8em;
+    margin-top: 960px;
+    position: absolute;
+}
