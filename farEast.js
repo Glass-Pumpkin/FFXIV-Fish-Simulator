@@ -875,7 +875,7 @@ let farEastFish = [
    {
       "name": "The Ruby Dragon",
       "bite": "!!!",
-      "time": 18,
+      "time": 30,
       "minSize": 555.2,
       "maxSize": 583.5,
       "image": "FishImg/The Ruby Dragon.png",
@@ -902,7 +902,7 @@ let farEastFish = [
    {
       "name": "The Vegetarian",
       "bite": "!!!",
-      "time": 18,
+      "time": 30,
       "minSize": 513.3,
       "maxSize": 545.9,
       "image": "FishImg/The Vegetarian.png",
@@ -956,7 +956,7 @@ let farEastFish = [
    {
       "name": "Warden of the Seven Hues",
       "bite": "!!!",
-      "time": 18,
+      "time": 30,
       "minSize": 446,
       "maxSize": 471.6,
       "image": "FishImg/Warden of the Seven Hues.png",
