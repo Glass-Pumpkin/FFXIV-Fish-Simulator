@@ -17,34 +17,23 @@ let timeTwo;
 // let iteration;
 // let castMessage;
 
-function teleport() {
-    document.body.style.background =
-        'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Misc/Fish.jpg) no-repeat';
+function bgChange(image) {
+    document.body.style.backgroundImage =
+        'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Misc/' + image + '.jpg)';
+    document.body.style.backgroundSize = 'cover';
 }
 
-function limsa() {
-    document.body.style.background =
-        'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Misc/Limsa.jpg) no-repeat';
+function bgChangeTwo(image) {
+    document.body.style.backgroundImage =
+        'linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Misc/' + image + '.jpg)';
+    document.body.style.backgroundSize = 'cover';
 }
 
-function gridania() {
-    document.body.style.background =
-        'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Misc/Gridania.jpg) no-repeat';
-}
-
-function uldah() {
-    document.body.style.background =
-        'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Misc/Uldah.jpg) no-repeat';
-}
-
-function ishgard() {
-    document.body.style.background =
-        'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Misc/Ishgard.jpg) no-repeat';
-}
-
-function kugane() {
-    document.body.style.background =
-        'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Misc/Kugane.jpg) no-repeat';
+function resetAll(local) {
+    resetPage();
+    clearTimeout(timeTwo);
+    clearTimeout(fishTimer);
+    selectClean(local);
 }
 
 function chumMath(x) {
@@ -178,61 +167,44 @@ quit.addEventListener("click", function (e) {
 
 home.addEventListener("click", function (e) {
     fishInfo = coerthasFish.concat(thanalanFish, blackShroudFish, laNosceaFish, farEastFish);
-    teleport();
-    resetPage();
-    clearTimeout(timeTwo);
-    clearTimeout(fishTimer);
-    selectClean(home);
+    bgChangeTwo('Fish');
+    resetAll(home);
     outputOne.innerHTML = `You teleport back home.`
 });
 
 laNoscea.addEventListener("click", function (e) {
     fishInfo = laNosceaFish;
-    limsa();
+    bgChange('Limsa');
     resetPage();
-    clearTimeout(timeTwo);
-    clearTimeout(fishTimer);
-    selectClean(laNoscea);
+    resetAll(laNoscea);
     outputOne.innerHTML = `You teleport to La Noscea.`
 });
 
 blackShroud.addEventListener("click", function (e) {
     fishInfo = blackShroudFish;
-    gridania();
-    resetPage();
-    clearTimeout(timeTwo);
-    clearTimeout(fishTimer);
-    selectClean(blackShroud);
+    bgChange('Gridania');
+    resetAll(blackShroud);
     outputOne.innerHTML = `You teleport to The Black Shroud.`
 });
 
 thanalan.addEventListener("click", function (e) {
     fishInfo = thanalanFish;
-    uldah();
-    resetPage();
-    clearTimeout(timeTwo);
-    clearTimeout(fishTimer);
-    selectClean(thanalan);
+    bgChange('Uldah');
+    resetAll(thanalan);
     outputOne.innerHTML = `You teleport to Thanalan.`
 });
 
 coerthas.addEventListener("click", function (e) {
     fishInfo = coerthasFish;
-    ishgard();
-    resetPage();
-    clearTimeout(timeTwo);
-    clearTimeout(fishTimer);
-    selectClean(coerthas);
+    bgChange('Ishgard');
+    resetAll(coerthas);
     outputOne.innerHTML = `You teleport to Coerthas.`
 });
 
 farEast.addEventListener("click", function (e) {
     fishInfo = farEastFish;
-    kugane();
-    resetPage();
-    clearTimeout(timeTwo);
-    clearTimeout(fishTimer);
-    selectClean(farEast)
+    bgChange('Kugane');
+    resetAll(farEast);
     outputOne.innerHTML = `You teleport to The Far East.`
 });
 

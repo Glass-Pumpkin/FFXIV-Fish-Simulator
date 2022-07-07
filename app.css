@@ -8,9 +8,12 @@ body {
     background-color: #151b20;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Misc/Fish.jpg);
     background-size: cover;
-
     margin: 0;
     padding: 0;
+}
+
+html {
+    min-height: 100%;
 }
 
 button {
