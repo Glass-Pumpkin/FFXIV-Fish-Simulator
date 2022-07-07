@@ -15,7 +15,7 @@ Buttons are as follows:
 - Quit: Cancel everything and put away your rod
 
 
-Click the bottom buttons to change your location!
+Click the bottom row of buttons to change your location!
 
 -----------------------------------------------
 This project works best on 1920x1080 resolutions. 
