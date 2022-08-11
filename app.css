@@ -6,7 +6,7 @@ body {
     flex-direction: column;
     height: 95vh;
     background-color: #151b20;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Misc/Fish.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/Fish.jpg);
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ h1 {
 
 #cast {
     margin-right: 300px;
-    background-image: url(Misc/Cast_Icon.png);
+    background-image: url(images/Cast_Icon.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 70px;
@@ -54,7 +54,7 @@ h1 {
 
 #hook {
     margin-left: -100px;
-    background-image: url(Misc/Hook_Icon.png);
+    background-image: url(images/Hook_Icon.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 70px;
@@ -62,7 +62,7 @@ h1 {
 
 #chum {
     margin-left: 100px;
-    background-image: url(Misc/Chum_Icon.png);
+    background-image: url(images/Chum_Icon.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 70px;
@@ -88,7 +88,7 @@ h1 {
 
 #quit {
     margin-left: 300px;
-    background-image: url(Misc/Quit_Icon.png);
+    background-image: url(images/Quit_Icon.png);
     background-repeat: no-repeat;
     background-position: left;
     background-size: 70px;
@@ -97,7 +97,7 @@ h1 {
 #home {
     margin-top: 750px;
     margin-left: -500px;
-    background-image: url(Misc/Return_Icon.png);
+    background-image: url(images/Return_Icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -107,7 +107,7 @@ h1 {
 #laNoscea {
     margin-top: 750px;
     margin-left: -300px;
-    background-image: url(Misc/Limsa_Icon.png);
+    background-image: url(images/Limsa_Icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -116,7 +116,7 @@ h1 {
 #blackShroud {
     margin-top: 750px;
     margin-left: -100px;
-    background-image: url(Misc/BlackShroud_Icon.png);
+    background-image: url(images/BlackShroud_Icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -125,7 +125,7 @@ h1 {
 #thanalan {
     margin-top: 750px;
     margin-left: 100px;
-    background-image: url(Misc/Thanalan_Icon.png);
+    background-image: url(images/Thanalan_Icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -134,7 +134,7 @@ h1 {
 #coerthas {
     margin-top: 750px;
     margin-left: 300px;
-    background-image: url(Misc/Ishgard_Icon.png);
+    background-image: url(images/Ishgard_Icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
@@ -143,12 +143,11 @@ h1 {
 #farEast {
     margin-top: 750px;
     margin-left: 500px;
-    background-image: url(Misc/FarEast_Icon.png);
+    background-image: url(images/FarEast_Icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 70px;
 }
-
 
 #container {
     display: flex;
